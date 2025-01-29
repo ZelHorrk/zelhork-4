@@ -1,0 +1,28 @@
+{
+    "games": [
+        {
+            "title": "Cyber Horizon 2077",
+            "platforms": ["pc", "ps5", "xbox"],
+            "rating": 4.8,
+            "cover": "https://picsum.photos/400/600?random=1",
+            "description": "Futuristic open-world RPG with stunning visuals",
+            "genre": "Action"
+        },
+        {
+            "title": "Space Ops Elite",
+            "platforms": ["pc", "switch"],
+            "rating": 4.5,
+            "cover": "https://picsum.photos/400/600?random=2",
+            "description": "Intergalactic combat simulator with multiplayer modes",
+            "genre": "Simulation"
+        },
+        {
+            "title": "Dragon Quest XI",
+            "platforms": ["ps5", "switch"],
+            "rating": 4.9,
+            "cover": "https://picsum.photos/400/600?random=3",
+            "description": "Epic fantasy JRPG with turn-based combat",
+            "genre": "RPG"
+        }
+    ]
+}
