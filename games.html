@@ -1,0 +1,51 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Game Library | PixelPlay</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+<nav class="navbar">
+    <div class="container">
+        <a href="index.html" class="logo"></a> 
+        <div class="search-bar">
+            <input type="text" placeholder="Search games..." id="searchInput">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+    </div>
+</nav>
+
+        <main class="container">
+            <section class="game-library">
+                <div class="filter-options">
+                    <div class="platform-filter">
+                        <span>Platform:</span>
+                        <div class="platform-tags">
+                            <button class="platform-tag active" data-platform="all">All</button>
+                            <button class="platform-tag" data-platform="pc"><i class="fab fa-windows"></i> PC</button>
+                            <button class="platform-tag" data-platform="ps5"><i class="fab fa-playstation"></i> PS5</button>
+                            <button class="platform-tag" data-platform="xbox"><i class="fab fa-xbox"></i> Xbox</button>
+                            <button class="platform-tag" data-platform="switch"><i class="fas fa-gamepad"></i> Switch</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="games-grid" id="gamesGrid">
+                    <!-- JS -->
+                </div>
+            </section>
+        </main>
+
+        <footer class="disclaimer">
+            <p>⚠️ This is a fictional game library created for demonstration purposes.</p>
+        </footer>
+
+        <script src="games.js"></script>
+    </body>
+    </html>
